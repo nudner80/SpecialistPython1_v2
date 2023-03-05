@@ -16,11 +16,15 @@
 
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
+string = input("Введите произвольную строку: ")
+string_new = string[3:]
 
----
+
+
+if string[0:3] == "id:" and string_new.isdigit() == True:
+    print("Да")
+else:
+    print("Нет")
 
 ### Данные для самопроверки
 
